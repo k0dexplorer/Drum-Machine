@@ -105,7 +105,6 @@ function App() {
     );
 } 
 
-
 function Pad ( {clip, volume, setRecording}) {
     const [active, setActive] = React.useState(false);
 
