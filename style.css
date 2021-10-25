@@ -1,0 +1,35 @@
+#drum-machine {
+  background: #36313b;
+}
+
+#drum-machine #display input[type='range'] {
+  background: #82CFD0;
+  border: solid 1px #82CFD0;
+  border-radius: 8px;
+  height: 7px;
+  width: 356px;
+  outline: none;
+  margin-bottom: 30px;
+  -webkit-transition: background 450ms ease-in;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+#drum-machine #display h4 {
+  margin-top: 15px;
+}
+
+#drum-machine #display button {
+  margin-top: 50px;
+}
+
+#drum-machine #display .btn {
+  margin-left: 30px;
+  margin-bottom: 55px;
+}
+
+#drum-machine #display .btn-gradient {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#845EC2), color-stop(#D65DB1), to(#F9F871));
+  background-image: linear-gradient(to top, #845EC2, #D65DB1, #F9F871);
+}
+/*# sourceMappingURL=style.css.map */
